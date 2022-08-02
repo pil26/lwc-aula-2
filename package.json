@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/pil26.lwc-l6celgqu",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve sC7cJejxUDLsQh3JgZoh --open"
+  }
+}

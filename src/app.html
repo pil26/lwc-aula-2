@@ -1,0 +1,19 @@
+<template>
+	<lightning-card>
+		<div>
+			<h1>Estrutura de Dados</h1>
+			<p>Nome : {account.name}</p>
+			<p>Tipo : {account.type}</p>
+			<p>Classificação : {account.rating}</p>
+			<p>Website : {account.website} </p>
+		</div>
+
+		<div>
+			<h1>Pokemons</h1>
+			<template for:each={pokemons} for:item='poke'>
+				<p key={poke.cod}>Nome: {poke.nome} - Tipo: {poke.tipo} - Nivel: {poke.nivel}</p>
+
+			</template>
+		</div>
+	</lightning-card>
+</template>
